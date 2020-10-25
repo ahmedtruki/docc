@@ -1,0 +1,76 @@
+#f {
+    width: 10%;
+}
+
+#a {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#z {
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 30%;
+    height: 300px;
+    border-radius: 15%;
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+.card img {
+    margin-left: 300px;
+    width: 60%;
+
+}
+
+.blue {
+    background-color: turquoise;
+}
+
+.green {
+    background-color: yellowgreen;
+}
+
+h3,
+h5 {
+    margin-left: 8px;
+}
+
+#b {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 30%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+
+article img {
+    width: 100%;
+    border-radius: 7px;
+}
+
+article div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+article :hover {
+    box-shadow: grey 0px 0px 15px;
+}
